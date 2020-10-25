@@ -38,7 +38,7 @@ const Sidebar = () => {
             collapsed={collapsed}
             onCollapse={onCollapse}
         >
-            <Menu theme="dark" defaultSelectedKeys={['3']} mode="inline" style={{ height: '100%', borderRight: 0 }}>
+            <Menu defaultSelectedKeys={['3']} mode="inline" style={{ height: '100%', borderRight: 0 }}>
                 <div className='logo' />
                 <Menu.Item key="1" icon={<ToolOutlined />}>
                     <Link to='/change-password'>Change Password</Link>

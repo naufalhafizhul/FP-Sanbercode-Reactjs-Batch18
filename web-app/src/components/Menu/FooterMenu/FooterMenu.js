@@ -5,7 +5,7 @@ const { Footer } = Layout;
 
 const FooterMenu = () => {
     return (
-        <Footer style={{ textAlign: 'center' }}>AdithyaNuzPratamaPutra</Footer>
+        <Footer style={{ textAlign: 'center', backgroundColor:"black", color:"white" }}>2020</Footer>
     );
 }
 

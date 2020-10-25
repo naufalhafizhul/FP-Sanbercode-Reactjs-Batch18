@@ -7,7 +7,7 @@ const { Header } = Layout;
 const HeaderMenu = () => {
     return (
         <Header style={{ padding: 0 }}>
-            <Menu style={{ float: 'right' }} theme="dark" mode="horizontal">
+            <Menu style={{ float: 'right' }} mode="horizontal">
             </Menu>
         </Header>
     );
